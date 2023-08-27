@@ -8,7 +8,7 @@ public class Revisao {
         System.out.println("Ol√° mundo");
 
         Scanner leitor = new Scanner(System.in);
-
+	   System.out.println("Ol· Git");
         String nome = "Henrique";
         String nome1 = "Assis";
         String nome2 = "Arthur";
@@ -22,6 +22,7 @@ public class Revisao {
         System.out.println(listaDeNomes);
         listaDeNomes.add(1, "Assis");
         System.out.println(listaDeNomes);
+		
 
 
 
