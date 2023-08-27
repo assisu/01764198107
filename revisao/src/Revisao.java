@@ -1,0 +1,30 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class Revisao {
+
+    public static void main (String[] args){
+        System.out.println("Olá mundo");
+
+        Scanner leitor = new Scanner(System.in);
+
+        String nome = "Henrique";
+        String nome1 = "Assis";
+        String nome2 = "Arthur";
+        List listaDeNomes = new ArrayList<>();
+        listaDeNomes.add(nome);
+        listaDeNomes.add(nome1);
+        listaDeNomes.add(nome2);
+
+        System.out.println(listaDeNomes);
+        listaDeNomes.remove(1);
+        System.out.println(listaDeNomes);
+        listaDeNomes.add(1, "Assis");
+        System.out.println(listaDeNomes);
+
+
+
+
+    }
+}
